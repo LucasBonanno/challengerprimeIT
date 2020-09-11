@@ -35,7 +35,7 @@ public class EmailApp implements IApp<String> {
 	}
 
 	public String popMessage() {
-		String message = messages.remove();
+		String message = messages.element();
 		return message;
 	}
 

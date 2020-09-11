@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
  * @author lucas
  *
  */
-@RunWith(Cucumber .class)
+@RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/resources/features/",
 		glue = "steps",

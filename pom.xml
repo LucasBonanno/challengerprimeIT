@@ -21,12 +21,12 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.mockito</groupId>
-			<artifactId>mockito-core</artifactId>
-			<version>${mockito-all.version}</version>
-			<scope>test</scope>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.mockito</groupId> -->
+<!-- 			<artifactId>mockito-core</artifactId> -->
+<!-- 			<version>${mockito-all.version}</version> -->
+<!-- 			<scope>test</scope> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>com.tngtech.java</groupId>
 			<artifactId>junit-dataprovider</artifactId>
@@ -45,10 +45,10 @@
 			<version>${cucumber-java.version}</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>rafaelspinto</groupId>
-			<artifactId>flow</artifactId>
-			<version>${flow.version}</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>rafaelspinto</groupId> -->
+<!-- 			<artifactId>flow</artifactId> -->
+<!-- 			<version>${flow.version}</version> -->
+<!-- 		</dependency> -->
 	</dependencies>
 </project>
